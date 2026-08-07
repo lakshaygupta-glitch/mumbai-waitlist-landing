@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mumbai Traders Network — Waitlist</title>
+  <meta name="description" content="A SEBI-compliant, broker-supervised technology platform built for Mumbai's trading community." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" href="favicon.svg" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="#" class="logo" aria-label="Mumbai Traders Network">MTN</a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#features">Features</a>
+        <a href="#platform">Platform</a>
+        <a href="#compliance">Compliance</a>
+        <a href="#waitlist">Join</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1 class="hero-title">
+          Systematic tools for Mumbai's trading community
+        </h1>
+        <p class="hero-subtitle">
+          A compliance-forward, technology-assisted platform designed to support SEBI-regulated
+          execution, risk management, and execution efficiency for traders in India's financial
+          capital.
+        </p>
+        <div class="hero-cta">
+          <a href="#waitlist" class="btn btn-primary">Join the Mumbai Waitlist</a>
+        </div>
+        <p class="hero-note">No spam. Unsubscribe at any time.</p>
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <div class="container">
+        <h2>Technology-assisted capabilities</h2>
+        <p class="section-subtitle">
+          Built to meet the evolving demands of Mumbai's institutional and high-end retail traders.
+        </p>
+        <div class="feature-grid">
+          <div class="feature-card">
+            <h3>SEBI-compliant design</h3>
+            <p>
+              Architected to align with the current SEBI framework for technology-assisted trading,
+              including personal-use volume thresholds and broker oversight responsibilities.
+            </p>
+          </div>
+          <div class="feature-card">
+            <h3>Execution efficiency</h3>
+            <p>
+              Systematic order routing and risk controls designed to reduce slippage and support
+              high-frequency evaluation within regulatory limits.
+            </p>
+          </div>
+          <div class="feature-card">
+            <h3>Risk management</h3>
+            <p>
+              Real-time position and portfolio-level risk monitoring that supports disciplined,
+              rules-based trading workflows.
+            </p>
+          </div>
+          <div class="feature-card">
+            <h3>Broker-supervised access</h3>
+            <p>
+              Integrations that operate under broker supervision, helping ensure outputs remain
+              within your broker's defined parameters.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="platform" class="platform">
+      <div class="container">
+        <h2>Platform overview</h2>
+        <p class="section-subtitle">
+          A rules-based, technology-assisted toolkit for traders who demand execution efficiency,
+          risk visibility, and regulatory alignment.
+        </p>
+        <div class="platform-grid">
+          <div class="platform-item">
+            <span class="platform-step">1</span>
+            <h3>Connect your broker</h3>
+            <p>Integrate with your broker's API in a broker-supervised environment.</p>
+          </div>
+          <div class="platform-item">
+            <span class="platform-step">2</span>
+            <h3>Define your approach</h3>
+            <p>Build and backtest systematic strategies within SEBI's personal-use framework.</p>
+          </div>
+          <div class="platform-item">
+            <span class="platform-step">3</span>
+            <h3>Execute with controls</h3>
+            <p>Run rules-based execution with real-time risk and compliance monitoring.</p>
+          </div>
+        </div>
+        <div class="platform-note">
+          <strong>Important:</strong> Strategy providers offering black-box approaches hold the
+          responsibility to maintain the appropriate SEBI Research Analyst license and exchange
+          empanelment. All performance references are subject to verification by an independent
+          Past Risk &amp; Return Verification Agency, as required by SEBI.
+        </div>
+      </div>
+    </section>
+
+    <section id="compliance" class="compliance">
+      <div class="container">
+        <h2>Compliance-forward</h2>
+        <p class="section-subtitle">
+          Mumbai is India's financial capital — and a hub of evolving regulation. We design for
+          transparency and accountability from the start.
+        </p>
+        <ul class="compliance-list">
+          <li>Aligned with SEBI's technology-assisted trading framework, effective April 2026.</li>
+          <li>Broker-supervised operation — intermediaries remain accountable for outputs.</li>
+          <li>No guarantees of returns; strategies depend on your inputs and market conditions.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="waitlist" class="waitlist">
+      <div class="container">
+        <div class="waitlist-card">
+          <h2>Join the Mumbai waitlist</h2>
+          <p>
+            Be among the first in India's financial capital to access a technology-assisted,
+            compliance-forward trading toolkit.
+          </p>
+          <!--
+            WAITLIST SIGNUP FORM PLACEHOLDER
+            Integrate with your email capture backend (e.g. Mailchimp, ConvertKit, Supabase, or
+            a custom endpoint). The form below is a semantic, accessible placeholder that posts
+            to a no-op handler. Replace the action and add any required hidden fields or
+            reCAPTCHA tokens per your email provider's requirements.
+          -->
+          <form id="waitlist-form" class="waitlist-form" action="#" method="POST" netlify="">
+            <div class="form-field">
+              <label for="name">Full name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your name"
+                required
+                autocomplete="name"
+              />
+            </div>
+            <div class="form-field">
+              <label for="email">Work email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="you@example.com"
+                required
+                autocomplete="email"
+              />
+            </div>
+            <div class="form-field">
+              <label for="experience">Trading experience</label>
+              <select id="experience" name="experience" required>
+                <option value="" disabled selected>Select…</option>
+                <option value="retail">Retail trader (individual account)</option>
+                <option value="propietory">Proprietary / quant firm</option>
+                <option value="hni">High-net-worth individual</option>
+                <option value="other">Other professional</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block" id="submit-btn">
+              Request early access
+            </button>
+          </form>
+          <p id="form-status" class="form-status" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer-brand">Mumbai Traders Network</p>
+      <p class="footer-text">
+        This platform is broker-supervised and is not a SEBI Research Analyst. Past performance
+        is not indicative of future results. All strategy performance claims are subject to
+        verification by an independent Past Risk &amp; Return Verification Agency.
+      </p>
+      <small>
+        © 2026 Mumbai Traders Network. All rights reserved. | <a href="#">Privacy</a> | <a href="#">Terms</a>
+      </small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
